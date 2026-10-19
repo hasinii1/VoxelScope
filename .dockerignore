@@ -1,0 +1,14 @@
+venv
+**/node_modules
+**/__pycache__
+frontend/dist
+backend/storage
+backend/*.db
+backend/.env
+backend/test_*
+data
+.git
+*.nii
+*.nii.gz
+*.zip
+inference/spleen_best_model.pth

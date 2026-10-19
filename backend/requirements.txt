@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-multipart
+python-dotenv
+pydantic
+pydicom
+nibabel
+SimpleITK
+numpy
+scipy

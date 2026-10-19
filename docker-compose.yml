@@ -1,0 +1,10 @@
+services:
+  voxelscope:
+    build: .
+    ports:
+      - "8080:7860"
+    volumes:
+      - vsdata:/data
+    restart: unless-stopped
+volumes:
+  vsdata:
