@@ -17,3 +17,8 @@ evaluation_results.csv
 !frontend/public/demo/*.nii.gz
 inference/spleen_best_model.pth
 inference/modal_app.py
+frontend/public/demo/scan.nii.gz
+frontend/public/demo/scan.nii
+frontend/public;demo/scan.dcm
+frontend/src/Demo.jsx
+frontend/src/demo.jsx

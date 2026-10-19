@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Landing from "./Landing.jsx";
 import Dashboard from "./Dashboard.jsx";
-import Demo from "./demo.jsx";
 
 export default function App() {
   const [page, setPage] = useState("landing");
