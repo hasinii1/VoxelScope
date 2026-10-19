@@ -3,7 +3,6 @@ WORKDIR /web
 COPY frontend/package*.json ./
 RUN npm ci
 COPY frontend ./
-ENV VITE_API_URL=same
 RUN npm run build
 
 FROM python:3.11-slim
